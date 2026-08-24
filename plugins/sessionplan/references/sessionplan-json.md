@@ -13,5 +13,6 @@ Operational rules:
 - Keep every item, block type, and person ID unique within the session.
 - Ensure every `blockTypeId` and `personIds` reference an actually declared record.
 - Use `group` only for sequential nested phases and `breakout` only for parallel work.
+- Only include `children` on `group` and `breakout` items. A `block` item must omit `children` entirely; sending it (even as an empty array) fails validation.
 - Preserve IDs and untouched fields when revising a decoded session.
 - Return the generated `structuredContent.link` verbatim; never reconstruct or edit it.

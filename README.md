@@ -66,6 +66,10 @@ Before publishing a change:
 2. run `claude plugin validate . --strict`;
 3. test creating, decoding, and revising a Sessionplan in Claude Code.
 
+## License
+
+AGPL-3.0-or-later. See [LICENSE](LICENSE).
+
 ## Support
 
 - Product: https://sessionplan.de/
