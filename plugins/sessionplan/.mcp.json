@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sessionplan": {
+      "type": "http",
+      "url": "https://sessionplan.de/mcp/"
+    }
+  }
+}

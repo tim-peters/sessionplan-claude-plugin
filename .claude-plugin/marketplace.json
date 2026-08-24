@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "sessionplan",
+  "owner": {
+    "name": "Tim Peters"
+  },
+  "plugins": [
+    {
+      "name": "sessionplan",
+      "source": "./plugins/sessionplan",
+      "description": "Create and revise visual agendas for workshops, trainings, meetings, and events.",
+      "category": "Productivity",
+      "tags": [
+        "agendas",
+        "facilitation",
+        "meetings",
+        "trainings",
+        "workshops"
+      ]
+    }
+  ]
+}

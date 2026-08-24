@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "sessionplan",
+  "displayName": "Sessionplan",
+  "version": "1.0.0",
+  "description": "Create and revise timed agendas for workshops, trainings, meetings, and events.",
+  "author": {
+    "name": "Tim Peters"
+  },
+  "homepage": "https://sessionplan.de/",
+  "repository": "https://github.com/tim-peters/sessionplan-claude-plugin"
+}
