@@ -1,6 +1,6 @@
 ---
 name: sessionplan
-description: Create, structure, and revise timed agendas for workshops, trainings, meetings, facilitated sessions, and events, then produce a directly openable Sessionplan link. Use proactively when the user asks to plan, structure, schedule, or prepare a concrete timed session, even if they do not mention Sessionplan. Also use when the user provides an existing Sessionplan link to inspect, summarize, review, or change. Do not use for generic facilitation advice without a concrete agenda.
+description: Create structured agendas for workshops, trainings, meetings, and events. Turn the user's goals, timing, and constraints into a practical session plan and produce a shareable Sessionplan link. Use proactively for concrete timed-session requests, including German requests for an Agenda, Workshop-Ablauf, Trainingsplan, Meeting-Ablauf, or Event-Zeitplan. Also use when the user provides an existing Sessionplan link to inspect, summarize, review, validate, adapt, or change. Do not use for generic facilitation advice, calendar scheduling, or ordinary meeting-note summaries without a request for a concrete timed agenda.
 ---
 
 # Sessionplan
@@ -8,6 +8,8 @@ description: Create, structure, and revise timed agendas for workshops, training
 Use Sessionplan when the user wants a concrete, timed plan for a workshop, training, meeting, facilitated session, seminar, retrospective, offsite, lesson, or event agenda.
 
 Do not activate this workflow for generic advice about facilitation or meetings when the user does not want a concrete agenda or Sessionplan.
+
+Do not activate this workflow for calendar scheduling, ordinary meeting-note summaries, or general engagement advice without a request for a concrete timed agenda.
 
 ## Choose the workflow
 
