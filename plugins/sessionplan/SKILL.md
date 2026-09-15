@@ -19,7 +19,7 @@ Do not activate this workflow for calendar scheduling, ordinary meeting-note sum
 2. Use the user's language for titles, descriptions, notes, and materials unless they ask for another language.
 3. If some details are missing, make reasonable low-risk assumptions when a useful plan is still possible. State important assumptions briefly. Ask a clarifying question only when the missing information would materially change the plan.
 4. Design a coherent timed agenda. Prefer a practical rhythm of input, activity, discussion, reflection, breaks, and transitions as appropriate to the user's goal.
-5. Build a complete Sessionplan JSON object that matches the live `create_session_link` tool schema. Use `https://sessionplan.de/import-schema.md` as the shared JSON reference; the live MCP schema remains authoritative.
+5. Build a complete Sessionplan JSON object that matches the live `create_session_link` input schema. Follow [references/sessionplan-json.md](references/sessionplan-json.md) and the shared reference at `https://sessionplan.de/import-schema.md`; the live create input schema remains authoritative.
 6. Call `create_session_link` exactly once with the completed session.
 7. Return the URL produced by the tool as the Sessionplan link. Never invent, reconstruct, or manually modify a Sessionplan URL.
 8. Briefly summarize the resulting agenda and mention any important assumption you made.
@@ -34,7 +34,7 @@ Do not activate this workflow for calendar scheduling, ordinary meeting-note sum
 
 1. Call `decode_session_link` first.
 2. Preserve the existing structure, IDs, people, block types, and untouched fields where practical.
-3. Apply only the requested changes plus any minimal consistency fixes required by the schema.
+3. Apply only the requested changes plus any minimal consistency fixes required by the `create_session_link` input schema. The decoder response schema describes existing data; it is not the format for generating the updated session.
 4. Call `create_session_link` with the complete updated session.
 5. Return the new link from the tool. Never claim that the old link was modified in place.
 
