@@ -1,13 +1,14 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "sessionplan",
+  "description": "Free browser-based workshop timeline planner: creates and revises timed agendas with drag-and-drop blocks, groups, breakout sessions, and share links.",
   "owner": {
     "name": "Tim J. Peters"
   },
   "plugins": [
     {
       "name": "sessionplan",
-      "source": "./plugins/sessionplan",
+      "source": "./",
       "description": "Create and revise visual agendas for workshops, trainings, meetings, and events.",
       "license": "AGPL-3.0-or-later",
       "category": "Productivity",
