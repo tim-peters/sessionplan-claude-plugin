@@ -9,5 +9,6 @@
     "name": "Tim J. Peters"
   },
   "homepage": "https://sessionplan.de/",
+  "privacyPolicyUrl": "https://sessionplan.de/en/privacy",
   "repository": "https://github.com/tim-peters/sessionplan-claude-plugin"
 }
